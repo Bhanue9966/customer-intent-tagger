@@ -1,0 +1,26 @@
+# .gitignore
+
+# Virtual Environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Data
+# Exclude the entire data folder, as raw data can be large
+# (If you need to keep a small raw file, remove this line)
+data/
+
+# Model and Training Artifacts
+models/
+logs/
+checkpoints/
+runs/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Jupyter/Editor Files
+.ipynb_checkpoints
+.vscode/
